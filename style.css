@@ -4,16 +4,19 @@ body{
 }
 
 .titulo{
+    background-color: rgb(255, 199, 126);
     color: black;
     text-align: center;
+    max-width: 50%;
     margin: auto;
-    background-color: rgb(255, 199, 126);
-    padding: 0.5rem;
+    padding: 2rem;
 }
 
 .resultado{
-    margin: auto;
     background-color: rgb(187, 156, 99);
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
     padding: 2rem;
 }
 
