@@ -19,14 +19,16 @@ for (let i = 0; i <= año; i++) {
 	}
 }
 
+cantidadBisiestos = bisiesto.length - 1;
+
 document.getElementById('añoElegido').innerHTML = 'Año elegido: ' + año;
 document.getElementById('añosBisiestos').innerHTML =
 	'Años bisiestos hasta el año elegido: ' + bisiesto.length;
+document.getElementById('ultimoAño').innerHTML =
+	'Ultimo año bisiesto: ' + bisiesto[cantidadBisiestos];
 
 console.log(bisiesto);
 
-console.log(
-	'Cantidad de años bisiestos hasta el año',
-	año + ':',
-	bisiesto.length
-);
+console.log(`Cantidad de años bisiestos hasta el año ${año}:`, bisiesto.length);
+
+console.log('Ultimo año bisiesto: ' + bisiesto[cantidadBisiestos]);
