@@ -2,9 +2,14 @@
 crear un algoritmo que repita un bloque de instrucciones. 
 En cada repetición es necesario efectuar una operación 
 o comparación para obtener una salida por alerta o consola. */
+
 alert('Te busco todos los años bisiestos hasta el año que me digas.');
 
 let año = parseInt(prompt('Ingresa un Número entero:'));
+
+while (isNaN(año)) {
+	año = parseInt(prompt('Incorrecto. Ingresa un Numero Entero:'));
+}
 
 let bisiesto = [];
 
