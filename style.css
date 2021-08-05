@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    font-family: 'Roboto', monospace;
+}
+
+.titulo{
+    color: black;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(255, 199, 126);
+    padding: 0.5rem;
+}
+
+.resultado{
+    margin: auto;
+    background-color: rgb(187, 156, 99);
+    padding: 2rem;
+}
+
+#añoElegido {
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
+}
+
+#añosBisiestos{
+    color: white;
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.5rem;
+}
